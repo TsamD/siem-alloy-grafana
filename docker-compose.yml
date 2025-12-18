@@ -10,7 +10,7 @@ services:
       - ./data/prometheus:/prometheus
       - ./config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
     networks:
-      grafana:
+      siem:
     ports:
       - "9090:9090"
 #    expose:
@@ -21,7 +21,7 @@ services:
     user: "0:0" # you may need to change this by using id -u
     image: grafana/grafana:10.2.2
     networks:
-      grafana:
+      siem:
     volumes:
       - ./data/grafana:/var/lib/grafana
     environment:
@@ -38,7 +38,7 @@ services:
     ports:
       - "12345:12345"
     networks:
-        grafana:
+        siem:
     volumes:
       - ./config.alloy:/etc/alloy/config.alloy
       - ./config/loki:/mnt/config
@@ -53,7 +53,7 @@ services:
     volumes:
       - "./config/loki:/mnt/config"
     networks:
-      grafana:
+      siem:
     command: "-config.file=/mnt/config/loki-config.yml"
     ports:
       - 3100:3100
@@ -63,7 +63,7 @@ services:
     network_mode: host
     volumes:
       - ./data/zeek/logs:/logs
-    command: /bin/bash -c "cd /logs && zeek -C -i br_grafana"
+    command: /bin/bash -c "cd /logs && zeek -C -i br_siem"
   ####### Suricata #######
   suricata:
     build:
@@ -76,13 +76,13 @@ services:
       - ./config/suricata/suricata.yaml:/etc/suricata/suricata.yaml
       - ./data/suricata/rules:/var/lib/suricata/rules
       - ./data/suricata/logs:/var/log/suricata/
-    command: /bin/bash -c "suricata-update && suricata -c /etc/suricata/suricata.yaml -i br_grafana && tail -f /var/log/cron.log"
+    command: /bin/bash -c "suricata-update && suricata -c /etc/suricata/suricata.yaml -i br_siem && tail -f /var/log/cron.log"
  ####### Maildev #######
   maildev:
     image: maildev/maildev
     restart: always
     networks:
-      grafana:
+      siem:
     environment:
       - TZ=Europe/Paris
       - MAILDEV_WEB_PORT=1080
@@ -94,27 +94,27 @@ services:
     build:
       context: ./server-app/.
     networks:
-      grafana:
+      siem:
     ports:
       - "3001:80"
     environment:
       RESET_ACESS_METRIC: "900000" # 10 minutes
   stress:
     networks:
-      grafana:
+      siem:
     build:
       context: ./stress/.
   curl:
     networks:
-      grafana:
+      siem:
     build:
       context: ./curl/.
 networks:
-  grafana:
+  siem:
     driver: bridge
     ipam:
       driver: default
       config:
-        - subnet: 172.22.0.0/16
+        - subnet: 172.23.0.0/16
     driver_opts:
-      com.docker.network.bridge.name: br_grafana
+      com.docker.network.bridge.name: br_siem
