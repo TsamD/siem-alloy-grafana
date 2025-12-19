@@ -16879,7 +16879,7 @@
         "current": {
           "selected": false,
           "text": "Prometheus",
-          "value": "PBFA97CFB590B2093"
+          "value": "${DS_PROMETHEUS}"
         },
         "hide": 0,
         "includeAll": false,
@@ -16984,7 +16984,7 @@
   "timepicker": {},
   "timezone": "browser",
   "title": "Suricata Zeek Alloy Prometheus Loki Full",
-  "uid": "rYdddlPWk",
+  "uid": "surizeeallpromoloki",
   "version": 10,
   "weekStart": ""
 }

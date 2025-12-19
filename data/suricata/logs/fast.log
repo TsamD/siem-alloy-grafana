@@ -48,3 +48,93 @@
 12/18/2025-21:19:49.602955  [**] [1:2221033:1] SURICATA HTTP Request abnormal Content-Encoding header [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:53368 -> 172.23.0.7:9090
 12/18/2025-21:19:59.608293  [**] [1:2221033:1] SURICATA HTTP Request abnormal Content-Encoding header [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:53368 -> 172.23.0.7:9090
 12/18/2025-21:20:09.618155  [**] [1:2221033:1] SURICATA HTTP Request abnormal Content-Encoding header [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:53368 -> 172.23.0.7:9090
+12/19/2025-19:51:02.679546  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:51:02.679546  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:51:02.679580  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54634
+12/19/2025-19:51:08.280288  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:51:08.280288  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:51:08.428884  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54634
+12/19/2025-19:53:06.926087  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:53:06.926087  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:53:06.928143  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54634
+12/19/2025-19:57:50.925454  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54634 -> 172.23.0.2:3000
+12/19/2025-19:57:50.925563  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54634
+12/19/2025-20:18:19.256454  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:43908
+12/19/2025-20:18:27.029617  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:18:27.029617  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:18:27.030459  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54344
+12/19/2025-20:18:27.132301  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:18:27.132301  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:18:27.132353  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54344
+12/19/2025-20:20:27.135903  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:20:27.135903  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:20:27.138159  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:3000 -> 172.23.0.1:54344
+12/19/2025-20:21:44.425559  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.5:3100 -> 172.23.0.2:53666
+12/19/2025-20:21:44.425604  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:53666 -> 172.23.0.5:3100
+12/19/2025-20:21:44.425604  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:53666 -> 172.23.0.5:3100
+12/19/2025-20:22:16.113998  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:53666 -> 172.23.0.5:3100
+12/19/2025-20:22:16.113998  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:53666 -> 172.23.0.5:3100
+12/19/2025-20:22:16.114030  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.5:3100 -> 172.23.0.2:53666
+12/19/2025-20:24:50.311833  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:54344 -> 172.23.0.2:3000
+12/19/2025-20:24:50.693287  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.5:3100 -> 172.23.0.2:53666
+12/19/2025-20:24:50.693402  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.2:53666 -> 172.23.0.5:3100
+12/19/2025-20:31:29.104591  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44832
+12/19/2025-20:31:29.104631  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:31:29.104631  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:31:29.189713  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:31:29.189713  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:31:29.190019  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44840
+12/19/2025-20:31:30.079093  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:31:30.079093  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:31:30.076919  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:31:30.076919  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:31:30.076978  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44832
+12/19/2025-20:31:39.838970  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44818
+12/19/2025-20:31:40.242469  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44840
+12/19/2025-20:32:03.561076  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:32:03.561076  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:32:04.864553  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44832
+12/19/2025-20:32:10.570247  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:58104 -> 172.23.0.5:3100
+12/19/2025-20:32:10.570247  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:58104 -> 172.23.0.5:3100
+12/19/2025-20:32:25.962536  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.5:3100 -> 172.23.0.4:58104
+12/19/2025-20:33:40.571825  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:58104 -> 172.23.0.5:3100
+12/19/2025-20:33:40.571895  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.5:3100 -> 172.23.0.4:58104
+12/19/2025-20:33:40.571912  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:58104 -> 172.23.0.5:3100
+12/19/2025-20:38:18.217580  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:38:18.217580  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:39:19.657636  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44840
+12/19/2025-20:39:43.107936  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44832 -> 172.23.0.4:3000
+12/19/2025-20:39:43.108007  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44832
+12/19/2025-20:39:43.108568  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44840 -> 172.23.0.4:3000
+12/19/2025-20:39:43.108783  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:44840
+12/19/2025-21:01:14.985602  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3000 -> 172.23.0.1:50410
+12/19/2025-21:49:02.801677  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:49:02.801677  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:49:02.807436  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:44516
+12/19/2025-21:49:48.265578  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:49:48.265578  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:50:10.778814  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:44516
+12/19/2025-21:53:08.969624  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:44516
+12/19/2025-21:53:39.689647  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:53:39.689647  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:58:43.619337  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.1:44516 -> 172.23.0.9:3000
+12/19/2025-21:58:43.619415  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:44516
+12/19/2025-21:58:43.692558  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:50410
+12/19/2025-22:17:09.427570  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:42786 -> 172.23.0.4:3100
+12/19/2025-22:17:09.427570  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:42786 -> 172.23.0.4:3100
+12/19/2025-22:17:09.428180  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3100 -> 172.23.0.9:42786
+12/19/2025-22:17:09.431458  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:42786 -> 172.23.0.4:3100
+12/19/2025-22:17:09.431458  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:42786 -> 172.23.0.4:3100
+12/19/2025-22:17:09.431479  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3100 -> 172.23.0.9:42786
+12/19/2025-22:20:20.981031  [**] [1:2210038:3] SURICATA STREAM FIN out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3100 -> 172.23.0.9:42786
+12/19/2025-22:20:20.981078  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:42786 -> 172.23.0.4:3100
+12/19/2025-22:24:09.384798  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:47254 -> 172.23.0.4:3100
+12/19/2025-22:24:09.384798  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:47254 -> 172.23.0.4:3100
+12/19/2025-22:24:09.385291  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3100 -> 172.23.0.9:47254
+12/19/2025-22:24:09.390308  [**] [1:2210029:3] SURICATA STREAM ESTABLISHED invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:47254 -> 172.23.0.4:3100
+12/19/2025-22:24:09.390308  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:47254 -> 172.23.0.4:3100
+12/19/2025-22:24:09.391465  [**] [1:2210020:3] SURICATA STREAM ESTABLISHED packet out of window [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.4:3100 -> 172.23.0.9:47254
+12/19/2025-22:25:09.378534  [**] [1:2210030:3] SURICATA STREAM FIN invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:47254 -> 172.23.0.4:3100
+12/19/2025-22:29:09.347189  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:35804
+12/19/2025-22:29:09.379316  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:35790
+12/19/2025-22:29:09.389525  [**] [1:2221036:1] SURICATA HTTP Response excessive header repetition [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 172.23.0.9:3000 -> 172.23.0.1:35780
