@@ -1,1 +1,9 @@
-/data/
+/data/alloy/
+/data/grafana/alerting/
+/data/grafana/csv/
+/data/grafana/plugings/
+/data/grafana/png/
+/data/grafana/grafana.db
+/data/promotheus/
+/data/suricata/
+/data/zeek/
